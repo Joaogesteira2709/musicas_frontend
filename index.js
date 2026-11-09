@@ -7,8 +7,8 @@ async function buscarMusicas(){
 
     musicas.forEach((musica) => { 
         listaMusicas.innerHTML += `
-            <article class="${musica.titulo}">
-                <h2>Evidências</h2>
+            <article class="musica">
+                <h2>${musica.titulo}</h2>
                 <p class="artista">${musica.artista}</p>
                 <p class="detalhes">${musica.genero} | ${musica.ano} | ${musica.duracao} min</p>
 
